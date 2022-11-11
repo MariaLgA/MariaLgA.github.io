@@ -1,145 +1,68 @@
 <html>
 <head>
-
-    <style>
-
-        html
-        {
-            scroll-behavior: auto;
-        }
-        body
-        {
-            overflow: hidden;
-        }
-        .column
-        {
-            padding: 10px;
-        }
-
-        .menu
-        {
-            height: 10%;
-            background-color:#90A967;
-            display: flex;
-            align-items: center;
-        }
-
-        .resources
-        {
-            height: 85%;
-            background-image: url("back.jpg");
-            overflow: auto;            
-        }
-
-
-        .bts
-        {
-            padding: 10px 40px;
-            border-radius: 20px;
-            transition: 0.3s;
-            font-weight: bold;
-            border: 2px solid black;
-        }
-
-        .bts:hover
-        {
-            background-color: #acd668;
-        }
-
-        #reger
-        {
-            width: 200px;
-            padding-right: 40%;
-        }
-
-        #rg
-        {
-            width: 600px;
-            height: 500px;
-        }
-
-        #bv
-        {
-            font-size: 40px;
-            margin-left: 30%;
-            margin-top: 10%;
-        }
-
-        #rec1
-        {
-            width: 500px;
-            padding-right: 20px;
-        }
-
-        #rec2
-        {
-            width: 500px;
-            padding-left: 20px;
-        }
-
-        #part1, #part2, #part3
-        {
-            display: flex;
-        }
-
-        #uni
-        {
-            width: 200px;
-        }
-
-        .titles
-        {
-            font-weight: bolder;
-            color:#6f8647;
-            font-size: 40px;
-            margin-left: 48%;
-        }
-
-    </style>
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen">
 </head>
 
 
 <body>
-    <div class="column menu">
+    <div class="column menu" style="background-color: #003B1F">
         <img id="reger" src="reger.png"/>
+        <img id="reducao" src="reducao.png"/>
 
         <div class="topics">
             <a href ="#part2"><button class = "bts">O Projeto</button></a>
             <a href ="#part3"><button class = "bts">O que fazemos</button></a>
-            <a href =""><button class = "bts">Onde estamos</button></a>
-            <a href ="#part4"><button class = "bts">Créditos</button></a>
+            <a href ="#part4"><button class = "bts">Onde estamos</button></a>
+            <a href ="#part5"><button class = "bts">Créditos</button></a>
         </div>
     </div>
 
-    <div class="column resources">
-        <div id="part1">
-            <img id="rg" src="rg.png"/>
-            <label id="bv">Bem vindo</label>
-        </div><br><br><br><br>
-        
+    <div class="column resources" style="background-color:white">
+        <div id="part1" style="background-image: linear-gradient(#24a854, #DDE3A5)">
+            <img id="rg" src="pg_1.png"/>
+            <label id="bv">Bem vindo!</label>
+        </div><br>
 
-        <div id="part2">
-            <img id="rec1" src="rectangle_23.png"/>
+
+        <div id="part2" style="background-color: #DDE3A5">
+            <img id="rec1" src="PART1.png"/>
 
             <div>
-                <label class="titles">O projeto</label><br><br>
-                <label>Há uma preocupação constante do Unisagrado com os resíduos produzidos em todas as suas atividades, porém nem todos têm consciência do que nós já fazemos. Esta preocupação com os resíduos vem de uma necessidade não só da instituição, mas um cuidado com os impactos causados no meio ambiente e com os efeitos a curto e longo prazo.</label>
+                <label class="titles" style="margin-left: 40%">O projeto</label><br><br>
+                <label>A sustentabilidade é um tema cada vez mais presente nas agendas nacionais e internacionais e sabe-se que através da sua prática e desenvolvimento, muitos problemas atuais e futuros podem ser evitados, tais como a redução da geração de resíduos e desperdícios. E, nesse sentido as Instituições de Ensino Superior (IES) têm uma posição privilegiada para ajudar a desenvolver os pilares da sustentabilidade, dentre eles a educação para o desenvolvimento sustentável por meio da mudança de hábitos na comunidade do campus. No entanto, apesar de haver muitos trabalhos avaliando a sustentabilidade no setor empresarial, há pouca pesquisa voltada para as instituições de ensino superior e menos ainda as que dão enfoque na redução da geração dos resíduos e seu impacto na sociedade. O projeto Reger (Redução da Geração de Resíduos) atua na implementação da cultura de sustentabilidade, no Centro Universitário Sagrado Coração (Unisagrado) e na comunidade externa. Para tanto será realizado o diagnóstico dos resíduos gerados no campus, capacitação de alunos, professores e colaboradores para o correto gerenciamento, separação e destinação dos resíduos gerados e serão elaboradas e implementadas propostas para reduzir a geração dos resíduos no campus. Junto à comunidade externa será realizada a capacitação e implementação de ações que contribuam para com a comunidade. Espera-se que com esse projeto os resíduos sejam destinados corretamente e que haja um entendimento da importância de se pensar de forma sustentável.  Desta forma este projeto de extensão pretende cumprir com a função de incorporar de forma permanente a discussão e ação sobre o tema sustentabilidade na instituição e na comunidade externa.</label>
             </div>
-        </div><br><br><br><br>
+        </div><br>
 
-        <div id="part3">
+        <div id="part3" style="background-coloR: #DDE3A5">
             <div>
-                <label class="titles">O que fazemos?</label><br><br>
-                <label>O alvo deste projeto é reduzir os resíduos e, para tanto, teremos que tomar medidas no sentido de reduzir o consumo ou, pelo menos modificar a forma como o fazemos e modificar hábitos de consumo.</label>
+                <label class="titles" style="margin-left: 35%">O que fazemos?</label><br><br>
+                <label>O projeto Reger atua em ações de fiscalização e orientação do descarte correto de resíduos nos setores administrativos da instituição, bem como realiza capacitações com os funcionários e estudantes para relembrar alguns conceitos de sustentabilidade e descarte dos resíduos. Cabe também ao projeto a coleta os dados quali-quantitativos relacionados aos resíduos gerados, bem como elaborar, propor e implementar ações para a redução da geração dos resíduos. De forma a sistematizar o trabalho e organizar os alunos em cada uma das atividades, o projeto é dividido em áreas de atuação, que estão descritas a seguir. Todas as área ocorrem de forma simultânea.</label>
+                <br><br>
+                <ul id = "area">
+                    <li>ÁREA 1: Capacitação e Manutenção</li>
+                    <li>ÁREA 2: Resíduos Orgânicos e Compostagem</li>
+                    <li>ÁREA 3: Redução do consumo de tonners e papel</li>
+                    <li>ÁREA 4: Quali-Quantificação dos resíduos</li>
+                    <li>ÁREA 5: Compras sustentáveis</li>
+                    <li>ÁREA 6: Conscientização</li>
+                </ul>
             </div>
 
-            <img id="rec2" src="img2.png"/>            
-        </div><br><br><br><br>
+            <img id="rec2" src="PART2.png"/>            
+        </div><br>
+
+        <div id="part4" style="background-coloR: #DDE3A5">
+            <img id="rec2" src="estamos.png"/>
+            <div>
+                <label class="titles" style="margin-left: 40%">Onde Estamos</label><br><br>
+                <label>Este semestre o Reger além de atuar no gerenciamento dos resíduos do Centro Universitário Sagrado Coração (Unisagrado), inicia o atendimento a comunidade externa com ações junto a Rede Sagrado de Educação, com ações de capacitação e orientação sobre o correto gerenciamento de resíduos em 3 unidades da rede. E atua também no processo de orientação e implantação da compostagem no Centro Irmã Adelaide.</label>
+            </div>            
+        </div><br>
        
         
-        <div id="part4">
+        <div id="part5" style="background-coloR: #DDE3A5">
             <div>
-                <label class="titles">Créditos</label><br><br>
+                <label class="titles" style="margin-left: 45%">Créditos</label><br><br>
                 <label calss>Este projeto web foi desenvolvido em decorrência da aula de Linguagem de programação do curso de Ciência da Computação, com o objetivo de mostrar para sociedade sobre o projeto Reger.</label>
                 <br><br>
                 <label><b>Desenvolvedores:</b></label>

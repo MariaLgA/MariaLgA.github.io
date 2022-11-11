@@ -1,0 +1,121 @@
+        html
+        {
+            scroll-behavior: auto;
+        }
+        body
+        {
+            overflow: hidden;
+        }
+        .part1
+        {
+            background:#24A854;
+        }
+        .column
+        {
+            padding: 0px;
+        }
+
+        .menu
+        {
+            height: 10%;
+            background-color:#90A967;
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .resources
+        {
+            height: 85%;
+            overflow: auto;            
+        }
+
+        label,#area
+        {
+            font-size: 20px;
+        }
+
+
+        .bts
+        {
+            padding: 10px 40px;
+            border-radius: 20px;
+            transition: 0.3s;
+            font-weight: bold;
+            background-color: #DDE3A5;
+            border: none;
+        }
+
+        .topics
+        {
+            border-radius: 20px;
+            background-color: #DDE3A5;
+        }
+
+        .bts:hover
+        {
+            background-color: #acd668;
+        }
+
+        #reger
+        {
+            width: 200px;
+            padding-right: 1%;
+        }
+
+        #reducao
+        {
+            width: 100px;
+            padding-right: 10%;
+        }
+
+        #rg
+        {
+            width: 800px;
+            height: 500px;
+        }
+
+        #bv
+        {
+            font-size: 60px;
+            margin-left: 5%;
+            margin-top: 10%;
+        }
+
+        #rec1
+        {
+            width: 500px;
+            padding-right: 20px;
+        }
+
+        #rec2
+        {
+            width: 500px;
+            padding-left: 20px;
+        }
+
+        #part1, #part2, #part3,#part4
+        {
+            display: flex;
+        }
+
+        #uni
+        {
+            width: 200px;
+        }
+
+        .titles
+        {
+            font-weight: bolder;
+            color:#6f8647;
+            font-size: 40px;
+        }
+        #bv
+        {
+            font-family: sans-serif;
+        }
+        .rg
+        {
+            width: 800px;
+            height: 500px;
+        }
